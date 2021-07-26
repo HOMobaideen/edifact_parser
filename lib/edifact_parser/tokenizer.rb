@@ -11,12 +11,12 @@ module EdifactParser
       'DSG', 'DSI', 'DTM', 'EDT', 'EFI', 'ELM', 'ELU', 'ELV', 'EMP', 'EQA', 'EQD', 'EQN',
       'ERC', 'ERP', 'EVE', 'FCA', 'FII', 'FNS', 'FNT', 'FOR', 'FSQ', 'FTX', 'GDS', 'GEI',
       'GID', 'GIN', 'GIR', 'GOR', 'GRU', 'HAN', 'HYN', 'ICD', 'IDE', 'IFD', 'IHC', 'IMD',
-      'IND', 'INP', 'INV', 'IRQ', 'LAN', 'LIN', 'LOC', 'MEA', 'MEM', 'MKS', 'MOA', 'MSG',
+      'IND', 'INP', 'IRQ', 'LAN', 'LIN', 'LOC', 'MEA', 'MEM', 'MKS', 'MOA', 'MSG',
       'MTD', 'NAD', 'NAT', 'PAC', 'PAI', 'PAS', 'PCC', 'PCD', 'PCI', 'PDI', 'PER', 'PGI',
       'PIA', 'PNA', 'POC', 'PRC', 'PRI', 'PRV', 'PSD', 'PTY', 'PYT', 'QRS', 'QTY', 'QUA',
       'QVR', 'RCS', 'REL', 'RFF', 'RJL', 'RNG', 'ROD', 'RSL', 'RTE', 'SAL', 'SCC', 'SCD',
       'SEG', 'SEL', 'SEQ', 'SFI', 'SGP', 'SGU', 'SPR', 'SPS', 'STA', 'STC', 'STG', 'STS',
-      'TAX', 'TCC', 'TDT', 'TEM', 'TMD', 'TMP', 'TOD', 'TPL', 'TRU', 'TSR', 'VLI', 'INV' ]
+      'TAX', 'TCC', 'TDT', 'TEM', 'TMD', 'TMP', 'TOD', 'TPL', 'TRU', 'TSR', 'VLI']
 
     OPTIONAL_BEGIN = /^UNA:\+\.\?\s'/
     STRING = /[A-Za-z0-9\s\.]*(\?')*[A-Za-z0-9\s\.]*(\?\+)*[A-Za-z0-9\s\.]*(\?:)*[A-Za-z0-9\s\.]*/
